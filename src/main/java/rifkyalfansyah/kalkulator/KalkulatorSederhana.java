@@ -476,6 +476,7 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
                 break;
+                
             default :
                 break;
         }
