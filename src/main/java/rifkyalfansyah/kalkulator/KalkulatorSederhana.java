@@ -448,24 +448,28 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
                 break;
+                
             case 2:
                 bil2 = Double.parseDouble(angka);
                 jumlah = bil1-bil2;
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
                 break;
+                
             case 3:
                 bil2 = Double.parseDouble(angka);
                 jumlah = bil1*bil2;
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
                 break;
+                
             case 4:
                 bil2 = Double.parseDouble(angka);
                 jumlah = bil1/bil2;
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
                 break;
+                
             case 5:
                 bil2 = Double.parseDouble(angka);
                 jumlah = bil1%bil2;
