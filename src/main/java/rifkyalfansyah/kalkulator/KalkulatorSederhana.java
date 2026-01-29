@@ -475,8 +475,7 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
                 jumlah = bil1%bil2;
                 angka = Double.toString(jumlah);
                 tampilHasil.setText(angka);
-                break;
-                
+                break;                
             default :
                 break;
         }
