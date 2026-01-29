@@ -393,7 +393,7 @@ public class KalkulatorSederhana extends javax.swing.JFrame {
     }//GEN-LAST:event_angka9ActionPerformed
 
     private void btnTitikActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTitikActionPerformed
-        angka += ",";
+        angka += ".";
         tampilHasil.setText(angka);
     }//GEN-LAST:event_btnTitikActionPerformed
 
